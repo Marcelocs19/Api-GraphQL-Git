@@ -9,3 +9,5 @@ npx knex migrate:latest - cria a base no postgres
 
 DataSource
 npm i apollo-datasource-rest
+
+sandbox - http://localhost:4000/playground
