@@ -6,8 +6,8 @@ exports.up = function(knex) {
         table.string("description").notNull();
         table.integer("user_id").notNull();
 
-        table.foreign("user_id").references("id").inTable("users");
-    })    
+        table.foreign("user_id").references("id").inTable("users"); // associa um task com o user mas não foi passado
+    });    
   
 };
 

@@ -4,7 +4,7 @@ exports.up = function(knex) {
       table.increments("id").primary();
       table.string("login").notNull().unique();
       table.string("avatar_url").notNull();
-  })
+  });
 };
 
 exports.down = function(knex) {
